@@ -1,0 +1,67 @@
+baseURL = "https://redowheel.github.io"
+title = "redowheel.github.io"
+
+languageCode = "en"
+defaultContentLanguage = "en"
+
+paginate = 20
+enableEmoji = true
+
+theme = "hugo-coder"
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+since = 2021
+author = "I re-invent the wheel."
+description = "I re-invent the wheel."
+info = ["Hobbyst Programmer"]
+# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
+keywords = "blog,developer,personal"
+avatarURL = "https://avatars.githubusercontent.com/u/177757989?s=266&v=4"
+
+rtl = false
+maxSeeAlsoItems = 5
+colorScheme = "dark"
+hideColorSchemeToggle = true
+dateFormat = "January 2, 2006"
+
+[taxonomies]
+tag = "tags"
+series = "series"
+author = "authors"
+category = "categories"
+
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true # Allow HTML in md files
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/redowheel/"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact"
+weight = 4
+url = "contact/"
